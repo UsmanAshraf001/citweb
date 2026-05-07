@@ -21,6 +21,11 @@ if ($age >= 18) {
     echo "Status: Minor";
 }
 
+if ($age >= 18) {
+    echo "Status: Adult";
+} else {
+    echo "Status: Minor";
+}
 ?>
 
 </body>
